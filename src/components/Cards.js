@@ -18,9 +18,10 @@ const Cards = () => {
               style={{
                 //marginRight: "850px",
                 //paddingRight: "100px",
-                marginTop: "20px",
+                marginTop: "25px",
                 fontSize: "4.2rem",
                 textDecoration: "underline",
+                color: '#00d4ff'
               }}
             >
               Skills
@@ -29,30 +30,22 @@ const Cards = () => {
       <Container fluid style= {{marginLeft: "-00px"}}>
     <Row justify="between" debug>
     
-    <Col xs={3}>
-    
-      <SiSwift size={'50px'}/> 
-       Swift
-    </Col>
-    
-    <Col xs={3}>
-      <FaReact  size={'50px'}/>
-       React
-    </Col>
-    <Col xs={3}><IoLogoHtml5  size={'50px'}/> Html5</Col>
+    <Col xs={3}><SiSwift size={'50px'} color={'white'}/> Swift</Col> 
+    <Col xs={3}><FaReact  size={'50px'} color={'white'}/>React</Col>
+    <Col xs={3}><IoLogoHtml5  size={'50px'} color={'white'}/> Html5</Col>
    
     </Row>
   <br />
   <Row justify="between" debug>
-    <Col xs={3}><SiCss3  size={'50px'}/> <br></br>CSS </Col>
-    <Col xs={3}><SiJavascript  size={'50px'}/><br></br>JS</Col>
-    <Col xs={3}><SiCplusplus  size={'50px'}/><br></br>C++</Col>
+    <Col xs={3}><SiCss3  size={'50px'} color={'white'}/> <br></br>CSS </Col>
+    <Col xs={3}><SiJavascript  size={'50px'} color={'white'}/><br></br>JS</Col>
+    <Col xs={3}><SiCplusplus  size={'50px'} color={'white'}/><br></br>C++</Col>
     </Row>
   <br />
   <Row justify="between" debug>
-    <Col xs={3}><SiJava  size={'50px'}/> <br></br>Java</Col>
-    <Col xs={3}><SiBootstrap  size={'50px'}/>Bootstrap</Col>
-    <Col xs={3}><SiGithub  size={'50px'}/>Github</Col>
+    <Col xs={3}><SiJava  size={'50px'} color={'white'}/> <br></br>Java</Col>
+    <Col xs={3}><SiBootstrap  size={'50px'} color={'white'}/>Bootstrap</Col>
+    <Col xs={3}><SiGithub  size={'50px'} color={'white'}/>Github</Col>
     </Row>
   <br />
 </Container>

@@ -16,7 +16,6 @@ const Wrapper = styled.main`
     //height: auto;
     overflow: visible;
     }
-
 // Name sliding down
   .slide-effect {
     position: absolute;
@@ -371,7 +370,7 @@ section {
 
   //background: rgb(168,148,61);
   //background: linear-gradient(180deg, rgba(168,148,61,1) 0%, rgba(11,38,71,1) 100%);
-  background: linear-gradient(88deg,#cee7a2,#1b3af5,#9dc85f,#a82e72);
+  background: linear-gradient(88deg,#020024,#090979,#056dbb);
   background-size: 240% 240%;
   animation: section-animation 24s ease infinite;
   
@@ -454,7 +453,7 @@ section:nth-child(3n) {
     opacity: .5;
   }
   to {
-    transform: scale(2.5, 2.5);
+    transform: scale(1.5, 1.5);
     opacity: 0;
   }
 }

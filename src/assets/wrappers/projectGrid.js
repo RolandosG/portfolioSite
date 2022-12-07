@@ -77,7 +77,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 2em 3em;
+  padding: 40px 40px;
   backface-visibility: hidden;
   transform-style: preserve-3d;
   display: grid;

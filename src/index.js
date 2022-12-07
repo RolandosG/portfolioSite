@@ -20,7 +20,6 @@ root.render(
   <React.StrictMode>
   <AppProvider>
     <App />
-    <About/>
   </AppProvider>
   </React.StrictMode>
 );
