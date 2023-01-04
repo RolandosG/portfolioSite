@@ -22,8 +22,8 @@ const ProjectGrid = () => {
     <div class="card">
     <div class="card__content">
         <div class="card__front" style={{background: 'transparent'}}>
-          <h3 class="card__title">PROJECTS</h3>
-            <p class="card__subtitle">SOME OF MY</p>
+          <h3 class="card__title" style={{ color: 'white'}}>PROJECTS</h3>
+            <p class="card__subtitle" style={{color : 'white'}}>SOME OF MY</p>
         </div> 
             
     </div>

@@ -25,7 +25,7 @@ const Wrapper = styled.section`
   
   display: flex;
   font-size: 14px;
-  color: white;
+  color: black;
 }
 .slides {
     
@@ -34,7 +34,7 @@ const Wrapper = styled.section`
       width: 750px;
       height: 100px;
       box-sizing: border-box;
-      border: 5px white solid;
+      //border: 5px white solid;
       border-radius: 0%;
       overflow: hidden;
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -53,7 +53,7 @@ const Wrapper = styled.section`
   100% {transform: translateX(40px);opacity:1;}
 }
 ul {
-  margin-right: 800px;
+  margin-right: 00px;
   list-style-type: none;
   overflow: hidden;
   padding: 0;
@@ -63,9 +63,11 @@ ul {
 li {
   margin-right: 0.7rem;
   margin-bottom: 0.7rem;
-  background-color: transparent;
+  background: 'linear-gradient(88deg,#cee7a2,#1b3af5,#9dc85f,#a82e72)';
+  backgroundSize: '240% 240%';
+  animation: 'section-animation 24s ease infinite';
   padding: 0.2rem 1rem;
-  border-radius: 0.3rem;
+  //border-radius: 0.3rem;
   color: white;
   width: 100%;
 }
@@ -85,47 +87,22 @@ li {
   display: grid;
   gap: 10px 40px;
   grid-template-columns: repeat(2, 1fr);
-  background-color: transparent;
+  //background-color: transparent;
   padding: -100px;
 }
 
 
 
 body {
-  background: transparent;
+  background: 'linear-gradient(88deg,#cee7a2,#1b3af5,#9dc85f,#a82e72)';
+  backgroundSize: '240% 240%';
+  animation: 'section-animation 24s ease infinite';
   
 }
 
 
-.avatar {
-  font-size: 50px;
-  margin-bottom: 200px;
-  width: 250px;
-    height: 80px;
-    box-sizing: border-box;
-    border: 5px transparent solid;
-    border-radius: 5%;
-    overflow: hidden;
-    //box-shadow: 0 5px 10px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-    animation: float 12s ease-in-out infinite;
-    img { width: 100%; height: auto; }
-}
-.name-avatar {
-  position: absolute;
-  margin-top: -475px;
-  margin-left: 80px;
-  width: 240px;
-    //height: 50px;
-    box-sizing: border-box;
-    //border: 5px white solid;
-    border-radius: 0%;
-    overflow: hidden;
-    //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-    img { width: 100%; height: auto; }
-}
+
+
 @keyframes float {
     0% {
         //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -139,6 +116,15 @@ body {
         //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
         transform: translatey(0px);
     }
+}
+.zoom {
+  
+  transition: transform 4s; /* Animation */
+  width: 40px;
+  height: 100px;
+}
+.zoom:hover {
+  transform: scale(1.05); 
 }
 `
 
