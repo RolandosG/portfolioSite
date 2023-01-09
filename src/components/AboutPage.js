@@ -49,7 +49,7 @@ const AboutPage = () => {
             }}
           >
             Coming from a background in design, art, & technology, I love
-            working on Software where I’m able to dwelve in creating enjoyable
+            working on Software where I’m able to delve in creating enjoyable
             interactions and experiences for everyone.
           </div>
         </div>

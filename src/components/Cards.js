@@ -12,7 +12,7 @@ setConfiguration({ maxScreenClass: "xl" });
 const Cards = () => {
   return (
     
-    <Wrapper style={{marginLeft: '-500px', marginTop: '-0px', height: '0px', padding: '0px'}}>
+    <Wrapper style={{marginLeft: '-500px', marginTop: '-100px', height: '0px', padding: '0px'}}>
       <div class="avatar">
       <h1
               style={{

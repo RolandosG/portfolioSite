@@ -40,14 +40,14 @@ const About = () => {
           <div class="slideUp">
         <div
           clas="introduction"
-          style={{ color: "#041121", marginTop: "750px" }}
+          style={{ color: "white", marginTop: "750px" }}
         >
           <h1 style={{ marginTop:"-550px",marginRight: "-635px", fontSize: "4.2rem", textShadow: '2px 2px #ff0000', boxSizing: 'border-box' }}>
             Rolandos Georgoulis
           </h1>
         </div>
       </div>
-      <div class="slideRight" style={{marginTop:"400px", marginRight: "0px", textAlign: "left"}}>
+      <div class="slideRight" style={{marginTop:"400px", marginRight: "0px", textAlign: "left", color: 'white'}}>
         Hello! I'm a student in software & web developement from Athens, Greece and currently based in Freezing beautiful Toronto. Practicing on designing and developing state-of-the-art websites to deliver top user experiences. I have finished 3 years in programming and analysis and are now persuing my Honour bachelors of technology part time.   
         <br /><br></br>
         
