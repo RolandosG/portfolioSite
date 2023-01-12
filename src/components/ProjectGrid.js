@@ -45,8 +45,8 @@ const ProjectGrid = () => {
   backgroundSize: '240% 240%',
   animation: 'section-animation 10s ease infinite'}}><p 
             class="card__body">A group project built with React to showcase abilities of full stack development
-            <br></br><a href="https://github.com/RolandosG/black_Jack_project" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
-            <br></br><a href="https://prj-blackjack.herokuapp.com/landing" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'20px'}/>Website</a></p>
+            <br></br><a href="https://github.com/RolandosG/PRJ666-BlackJack-main" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
+            <br></br><a href="https://blackjack.herokuapp.com/landing" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'20px'}/>Website</a></p>
           </div>
     </div>
     </div>

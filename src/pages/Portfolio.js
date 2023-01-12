@@ -37,8 +37,8 @@ const Portfolio = () => {
   }}>
             <div class="title">BlackJack Website <FaReact  size={'50px'}/></div>
              <div className='desc'>A group project built with React to showcase abilities of full stack development.
-             <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/black_Jack_project" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
-             <a style={{marginLeft: '10px'}} href="https://naughty-knuth-43c447.netlify.app" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'25px'}/>Website</a>
+             <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/PRJ666-BlackJack-main" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
+             <a style={{marginLeft: '10px'}} href="https://blackjack.herokuapp.com/landing" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'25px'}/>Website</a>
              </div>
           </li>
           </div>
