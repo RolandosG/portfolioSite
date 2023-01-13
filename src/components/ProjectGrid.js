@@ -66,7 +66,7 @@ const ProjectGrid = () => {
   backgroundSize: '240% 240%',
   animation: 'section-animation 10s ease infinite'}}><p 
             class="card__body">A RESTful Application that displays items from back end to front end using mongoDB. 
-              <br></br><a href="https://github.com/RolandosG/black_Jack_project" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
+              <br></br><a href="https://github.com/RolandosG/Store-page-REACT" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
               <br></br><a href="https://naughty-knuth-43c447.netlify.app" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'20px'}/>Website</a></p>
           </div>
     </div>
