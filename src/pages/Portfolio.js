@@ -49,7 +49,7 @@ const Portfolio = () => {
   }}>
             <div className='title'>Shopping store <FaReact  size={'50px'}/></div>
             <div className='desc'>A RESTful App that displays items from back end using mongoDB.
-            <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/exploration-machine" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
+            <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/Store-page-REACT" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
             <a style={{marginLeft: '10px'}} href="https://youtu.be/a51OEI5wD8A" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Simulation</a>
             </div>
           </li>
