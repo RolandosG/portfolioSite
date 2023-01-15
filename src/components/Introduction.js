@@ -51,8 +51,7 @@ const Introduction = () => {
             marginLeft: "854px",
             marginTop: "-180px",
           }}
-        >
-          RESUME
+        ><a href="https://docs.google.com/document/d/1YDkw0mK-TM5QpMdBXl3OnuvqTlFUC4ky/edit?usp=sharing&ouid=104420958901390331204&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">RESUME</a>
         </AwesomeButton>
       </div>
 
