@@ -59,15 +59,15 @@ const ProjectGrid = () => {
         <div class="card__front" style={{background: 'linear-gradient(88deg,#cee7a2,#1b3af5,#9dc85f,#a82e72)',
   backgroundSize: '240% 240%',
   animation: 'section-animation 24s ease infinite'}}>
-          <h3 class="card__title">Shopping Store REACT</h3>
-            <p class="card__subtitle">Just like footlocker!</p>
+          <h3 class="card__title">Shopping Store backend</h3>
+            <p class="card__subtitle">Just like databases!</p>
         </div> 
             <div class="card__back"  style={{ background: 'radial-gradient(circle,#cee7a2,#a82e72)',
   backgroundSize: '240% 240%',
   animation: 'section-animation 10s ease infinite'}}><p 
-            class="card__body">A RESTful Application that displays items from back end to front end using mongoDB. 
-              <br></br><a href="https://github.com/RolandosG/Store-page-REACT" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
-              <br></br><a href="https://naughty-knuth-43c447.netlify.app" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'20px'}/>Website</a></p>
+            class="card__body">A RESTful Applications backend that displays from mongoDB. 
+              <br></br><a href="https://github.com/RolandosG/backend" target="_blank" rel="noopener noreferrer"><SiGithub  size={'20px'}/>LEARN MORE</a>
+              <br></br><a href="https://storepage-back-end.herokuapp.com/products" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'20px'}/>Website</a></p>
           </div>
     </div>
     </div>
