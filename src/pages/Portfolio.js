@@ -31,6 +31,7 @@ const Portfolio = () => {
           
           <ul style={{width: '1200px', height: '1200px'}}>  
           <div class='container'>
+            
             <div class='zoom'>
           <li class ="slideRight slides" style={{animation: "slideRight ease 2.4s forwards 2.2s", background: 'linear-gradient(88deg,#a82e72,#9dc85f,#1b3af5,#cee7a2)',
   backgroundSize: '240% 240%',
@@ -48,9 +49,9 @@ const Portfolio = () => {
   backgroundSize: '240% 240%',
   }}>
             <div className='title'>Shopping store <FaReact  size={'50px'}/></div>
-            <div className='desc'>A RESTful App that displays items from back end using mongoDB.
-            <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/Store-page-REACT" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
-            <a style={{marginLeft: '10px'}} href="https://youtu.be/a51OEI5wD8A" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Simulation</a>
+            <div className='desc'>A RESTful Apps back end that displays items from mongoDB.
+            <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/backend" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
+            <a style={{marginLeft: '10px'}} href="https://storepage-back-end.herokuapp.com/products" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Simulation</a>
             </div>
           </li>
            </div>
@@ -62,7 +63,7 @@ const Portfolio = () => {
             <div className='title'>Robotics in C <GiVintageRobot size={'50px'}/></div>
             <div className='desc'>Real time robot simulation using sensors to locate & move objects
             <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/Rolos-Grand-Adventure" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
-            <a style={{marginLeft: '10px'}} href="https://youtu.be/GpPjLehmRSk" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Gameplay</a>
+            <a style={{marginLeft: '10px'}} href="https://youtu.be/a51OEI5wD8A" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Gameplay</a>
             
             </div>
           </li>
