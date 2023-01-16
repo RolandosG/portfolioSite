@@ -51,7 +51,7 @@ const Portfolio = () => {
             <div className='title'>Shopping store <FaReact  size={'50px'}/></div>
             <div className='desc'>A RESTful Apps back end that displays items from mongoDB.
             <a style={{marginLeft: '15px'}} href="https://github.com/RolandosG/backend" target="_blank" rel="noopener noreferrer"><SiGithub  size={'25px'}/>Github</a>
-            <a style={{marginLeft: '10px'}} href="https://storepage-back-end.herokuapp.com/products" target="_blank" rel="noopener noreferrer"><SiYoutube size={'25px'}/>Simulation</a>
+            <a style={{marginLeft: '10px'}} href="https://storepage-back-end.herokuapp.com/products" target="_blank" rel="noopener noreferrer"><MdWebAsset size={'25px'}/>Website</a>
             </div>
           </li>
            </div>
