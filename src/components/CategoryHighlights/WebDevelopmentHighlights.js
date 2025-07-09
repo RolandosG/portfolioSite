@@ -242,7 +242,7 @@ const projectData = [
         'Showcased projects with detailed information'
       ],
       externalLinks: {
-        live: 'http://localhost:3000/Portfolio-Site',
+        live: 'rolandosg.com',
         github: '',
         demo: ''
       },
