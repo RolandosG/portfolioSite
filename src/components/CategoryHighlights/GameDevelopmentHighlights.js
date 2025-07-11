@@ -589,13 +589,15 @@ const GameDevHighlights = () => {
             {/* Modal Header */}
             <div className="modal-header">
               <h2 className="modal-title">{activePanel.detailedData.heroTitle}</h2>
-              <div className="role-badges">
-                  {activePanel.detailedData.roles.map((role, index) => (
-                    <span key={index} className="role-badge">
-                      {role}
-                    </span>
-                  ))}
-                </div>
+              {!isMobile && (
+    <div className="role-badges">
+      {activePanel.detailedData.roles.map((role, index) => (
+        <span key={index} className="role-badge">
+          {role}
+        </span>
+      ))}
+    </div>
+  )}
               <button className="close-button" onClick={closePanel}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -611,10 +613,12 @@ const GameDevHighlights = () => {
               {/* Screenshot Carousel */}
 {activePanel.detailedData.screenshots.length > 0 && (
   <div className="section" style={{ paddingTop: '0px' }}>
-    <h3 className="section-title">
-      <Target />
-      Visual Showcase
-    </h3>
+    {!isMobile && (
+      <h3 className="section-title">
+        <Target />
+        Visual Showcase
+      </h3>
+    )}
     <div className="visual-grid">
       {activePanel.detailedData.screenshots.map((screenshot, index) => (
         <div 
@@ -669,7 +673,7 @@ const GameDevHighlights = () => {
                   <span className="hero-title">{activePanel.title}
                   </span>
                 </div> */}
-             <div className="hero-section" style={{ height: '50vh' }}>
+             <div className="hero-section" style={{ height: '180px' }}>
     <p className="hero-description">
         <div className="hero-text">
             {activePanel.detailedData.heroDescription}
@@ -718,10 +722,12 @@ const GameDevHighlights = () => {
               {/* Key Features */}
               {activePanel.detailedData.features.length > 0 && (
                 <div className="section">
-                  <h3 className="section-title">
-                    <Target />
-                    Key Features
-                  </h3>
+                  {!isMobile && (
+      <h3 className="section-title">
+        <Target />
+        Key Features
+      </h3>
+    )}
                   <div className="features-container">
                     <div className="feature-showcase">
                       <div className="feature-image">
@@ -766,10 +772,12 @@ const GameDevHighlights = () => {
 
               {/* Technology Stack */}
               <div className="section">
-                <h3 className="section-title">
-                  <Code />
-                  Technology Stack
-                </h3>
+              {!isMobile && (
+    <h3 className="section-title">
+      <Code />
+      Technology Stack
+    </h3>
+  )}
                 <div className="tech-grid">
                   {activePanel.detailedData.technologies.map((tech, index) => (
                     <div key={index} className="tech-item">
@@ -781,10 +789,12 @@ const GameDevHighlights = () => {
 
               {/* Achievements */}
               <div className="section">
-                <h3 className="section-title">
-                  <Trophy />
-                  Key Achievements
-                </h3>
+              {!isMobile && (
+    <h3 className="section-title">
+      <Trophy />
+      Key Achievements
+    </h3>
+  )}
                 <div className="achievements-grid">
                   {activePanel.detailedData.achievements.map((achievement, index) => (
                     <div key={index} className="achievement-item">
@@ -797,7 +807,12 @@ const GameDevHighlights = () => {
               {/* Video Section */}
               {activePanel.detailedData.videoEmbed && (
                 <div className="section">
-                  <h3 className="section-title">Demo Video</h3>
+                  {!isMobile && (
+      <h3 className="section-title">
+        <Target />
+        Demo Video 
+      </h3>
+    )}
                   <div className="video-container">
                     <iframe
                       width="100%"
