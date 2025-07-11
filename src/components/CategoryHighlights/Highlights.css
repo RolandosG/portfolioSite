@@ -6,7 +6,8 @@
     position: relative;
     
     width: 100%;
-   
+    height: 885px;
+    padding-top: 85px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e2e8f0;
     overflow-x: hidden;
@@ -191,7 +192,7 @@
   /* Modal Overlay */
   .modal-overlay {
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -204,7 +205,10 @@
     visibility: hidden;
     transition: all 0.3s ease;
     backdrop-filter: blur(12px);
-    padding: 1rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     animation: highlightlideDown 1s ease-out forwards;
 
     
@@ -229,7 +233,7 @@
   .modal-content {
     background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
     border-radius: 20px;
-    max-width: 90vw;
+    max-width: 1500px;
     max-height: 90vh;
     width: 2000px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
@@ -256,7 +260,7 @@
     color: white;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 999999;
   }
   
   .modal-title {
@@ -450,6 +454,7 @@
   /* Section Styling */
   .section {
     margin-bottom: 2rem;
+    padding: 0px !important;
   }
   
   .section-title {
@@ -617,6 +622,7 @@
   }
   
   .feature-description {
+    max-width: 100% !important;
     font-size: 0.95rem;
     color: #94a3b8;
     line-height: 1.5;
@@ -1068,5 +1074,18 @@
     
     .full-size-image {
       max-height: 70vh;
+    }
+
+    .modal-overlay
+    {
+      padding-top: 7.5rem;
+    }
+    .portfolio-container
+    {
+      padding-top: 65px;
+    }
+    .portfolio-container
+    {
+      height:700px;
     }
   }
